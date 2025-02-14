@@ -11,13 +11,13 @@
 }
 .element {
     width: 50%;
-    background-color: red;
+   
 }
 
 @media (max-width: 800px) {
     .element{
         width: 100%;
-        background-color: blue;
+       
     }
 }
 
@@ -29,11 +29,25 @@
 /* If screen size is MORE than 800px wide */
 @media (min-width: 800px){ 
         /* Styles! */
+  .texto {
+  position: absolute;
+  color:#ade9fb;
+  width: 50%;
+  height: 50%;
+  
+}
 }
 
 /* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
 @media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
         /* Styles! */
+  .texto {
+  position: absolute;
+  color:#ade9fb;
+  width: 10%;
+  height: 10%;
+  
+}
 }
 
 body {
