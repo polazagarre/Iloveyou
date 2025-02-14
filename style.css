@@ -57,8 +57,7 @@ body {
 .texto {
   position: absolute;
   color: #ade9fb;
-  width: 200%;
-  height: 200%;
+  font-size: 40px;
   
 }
 .flower {
