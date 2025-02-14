@@ -9,6 +9,32 @@
 :root {
   --dark-color: #000;
 }
+.element {
+    width: 50%;
+    background-color: red;
+}
+
+@media (max-width: 800px) {
+    .element{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+/* If screen size is LESS than 1200px wide */
+@media (max-width: 1200px){ 
+        /* Styles! */
+}
+
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){ 
+        /* Styles! */
+}
+
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+        /* Styles! */
+}
 
 body {
   display: flex;
